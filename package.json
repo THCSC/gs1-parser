@@ -1,0 +1,22 @@
+{
+  "name": "gs1-parser",
+  "version": "1.0.0",
+  "description": "A parser for gs1 compliant barcodes",
+  "main": "dist/index.js",
+  "types": "dist/indes.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "files": [
+    "/dist"
+  ],
+  "author": "TobiasTheDanish",
+  "license": "ISC",
+  "devDependencies": {
+    "@jest/globals": "^29.2.1",
+    "ts-jest": "^29.2.1",
+    "typescript": "^5.5.3"
+  }
+}
