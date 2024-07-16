@@ -1,7 +1,7 @@
 {
-  "name": "gs1-parser",
+  "name": "gs1-parse",
   "version": "1.0.0",
-  "description": "A parser for gs1 compliant barcodes",
+  "description": "A parser for gs1 compliant barcode data",
   "main": "dist/index.js",
   "types": "dist/indes.d.ts",
   "type": "module",
@@ -12,8 +12,13 @@
   "files": [
     "/dist"
   ],
-  "author": "TobiasTheDanish",
-  "license": "ISC",
+  "repository": "https://github.com/THCSC/gs1-parser",
+  "bugs": {
+    "url": "https://github.com/THCSC/gs1-parser/issues"
+  },
+  "author": "THCSC <tobias@skancode.dk> (https://github.com/THCSC)",
+  "license": "MIT",
+  "homepage": "https://github.com/THCSC/gs1-parser#readme",
   "devDependencies": {
     "@jest/globals": "^29.2.1",
     "ts-jest": "^29.2.1",
