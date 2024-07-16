@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "A parser for gs1 compliant barcode data",
   "main": "dist/index.js",
-  "types": "dist/indes.d.ts",
+  "types": "dist/index.d.ts",
   "type": "module",
   "scripts": {
     "build": "tsc",
